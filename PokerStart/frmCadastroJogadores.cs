@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace PokerStart
 {
-    public partial class Form1 : Form
+    public partial class frmCadastroJogadores : Form
     {
-        public Form1()
+        public frmCadastroJogadores()
         {
             InitializeComponent();
-            MenuPrincipal.
         }
     }
 }
