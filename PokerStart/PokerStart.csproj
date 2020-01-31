@@ -113,6 +113,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfiguraçãoConta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfiguraçãoConta.Designer.cs">
+      <DependentUpon>ConfiguraçãoConta.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastroJogadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConfiguraçãoConta.resx">
+      <DependentUpon>ConfiguraçãoConta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroJogadores.resx">
       <DependentUpon>frmCadastroJogadores.cs</DependentUpon>
     </EmbeddedResource>

@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PokerStart
 {
-    public partial class frmCadastroJogadores : Form
+    public partial class ConfiguraçãoConta : Form
     {
-        public frmCadastroJogadores()
+        public ConfiguraçãoConta()
         {
             InitializeComponent();
-            textID.Enabled = false;
-        }
-
-        private void BotaoCriarContaBancaria_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
